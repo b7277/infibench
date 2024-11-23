@@ -6,10 +6,10 @@ layout: mydefault
 
 <head>
   <meta charset="utf-8">
-  <meta name="description" content="IInfiBench: Evaluating the Question-Answering Capabilities of Code LLMs">
+  <meta name="description" content="A Survey on OS Agents">
   <meta name="keywords" content="InfiCoder-Eval, code-generation, large-language-model, benchmark">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>InfiBench: Evaluating the Question-Answering Capabilities of Code LLMs</title>
+  <title>A Survey on OS Agents</title>
 
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
 
@@ -66,7 +66,7 @@ layout: mydefault
           </a>
           <div class="navbar-dropdown">
             <a class="navbar-item" href="https://github.com/infi-coder">
-              InfiCoder Organization
+              OS Agents Survey Team
             </a>
           </div>
         </div>
@@ -86,11 +86,11 @@ layout: mydefault
       <div class="container is-max-desktop">
         <div class="columns is-centered">
           <div class="column has-text-centered">
-            <h1 class="title is-1 publication-title">InfiBench: Evaluating the Question-Answering Capabilities of Code LLMs
+            <h1 class="title is-1 publication-title">A Survey on OS Agents
             </h1>
             <div class="is-size-5 publication-authors">
               <span class="author-block">
-                The InfiCoder Team
+                OS Agents Survey Team
               </span>
               <br>
               <!-- <span class="author-block">
