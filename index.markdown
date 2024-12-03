@@ -158,9 +158,9 @@ layout: mydefault
     <div class="container is-max-desktop">
       <div class="hero-body">
         <h2 class="subtitle has-text-centered">
-          InfiBench is a comprehensive benchmark for code large language models evaluating model ability on answering freeform real-world questions in the code domain.
+          InfiBench is a xxxxx
         </h2>
-        <img src="static/images/inficoder-eval-main.png">
+<!--         <img src="static/images/inficoder-eval-main.png"> -->
       </div>
     </div>
   </section>
@@ -169,7 +169,7 @@ layout: mydefault
   <div class="container is-max-desktop">
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
-        <h2 class="title is-3">Table of Contents</h2>
+        <h2 class="title is-3" id='table-of-contents'>Table of Contents</h2>
         <div class="content has-text-justified">
           <ul>
               <li><p><a href='#table-of-contents'>Table of Contents</a></p>
@@ -188,9 +188,9 @@ layout: mydefault
               </li>
               <li><p><a href='#contact'>Contact</a></p>
               </li>
-              <li><p><a href='#citation'>Citation</a></p>
-              </li>
               <li><p><a href='#acknowledgement'>Acknowledgement</a></p>
+              </li>
+	      <li><p><a href='#citation'>Citation</a></p>
               </li>
           </ul>
         </div>
@@ -204,7 +204,7 @@ layout: mydefault
       <!-- Abstract. -->
       <div class="columns is-centered has-text-centered">
         <div class="column is-four-fifths">
-          <h2 class="title is-3">Overview of xxx</h2>
+          <h2 class="title is-3" id='overview-of-xxx'>Overview of xxx</h2>
           <div class="content has-text-justified">
             <p>
               xxxx
@@ -220,7 +220,7 @@ layout: mydefault
     <div class="container is-max-desktop">
       <div class="columns is-centered has-text-centered">
         <div class="column is-four-fifths">
-          <h2 class="title is-3">Papers</h2>
+          <h2 class="title is-3 id='papers'">Papers</h2>
           <div class="content has-text-justified">
             <h3 id='foundation-models'>Foundation Models</h3>
               <ol start='' >
@@ -497,7 +497,7 @@ layout: mydefault
       <!-- Example. -->
       <div class="columns is-centered has-text-centered">
         <div class="column is-four-fifths">
-          <h2 class="title is-3">Related Repositories</h2>
+          <h2 class="title is-3" id='related-repositories'>Related Repositories</h2>
           <div class="content has-text-justified">
             <p>
 
@@ -513,7 +513,7 @@ layout: mydefault
     <div class="container is-max-desktop">
       <div class="columns is-centered has-text-centered">
         <div class="column is-four-fifths">
-          <h2 class="title is-3">Contact</h2>
+          <h2 class="title is-3" id='contact'>Contact</h2>
           <div class="content has-text-justified">
             <p>
               Please let us know if you find out a mistake or are interested in contributing by e-mail: <a href='mailto:huxueyu.zju@gmail.com' target='_blank' class='url'>huxueyu.zju@gmail.com</a>.
@@ -524,29 +524,27 @@ layout: mydefault
     </div>
   </section>
 
-  <section class="section" id="BibTeX">
-    <div class="container is-max-desktop content">
-      <div class="bibtex-body">
-        <h2 class="title">Citation</h2>
-        <pre><code>
-
-        </code></pre>
-      </div>
-    </div>
-  </section>
-
   <section class="section">
     <div class="container is-max-desktop">
-      <!-- Benchmarking Tutorial -->
       <div class="columns is-centered has-text-centered">
         <div class="column is-four-fifths">
-          <h2 class="title is-3">Acknowledgement</h2>
+          <h2 class="title is-3" id='acknowledgement'>Acknowledgement</h2>
           <p>
 
           </p>
         </div>
       </div>
-      <!--/ Benchmarking Tutorial -->
+    </div>
+  </section>
+  
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <div class="bibtex-body">
+        <h2 class="title" id='citation'>Citation</h2>
+        <pre><code>
+
+        </code></pre>
+      </div>
     </div>
   </section>
 
